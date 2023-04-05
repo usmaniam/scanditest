@@ -1,0 +1,15 @@
+{
+    "name": "my-pc/scanditest",
+    "authors": [
+        {
+            "name": "Usman Abubakar",
+            "email": "usmanuiam@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    }
+}
