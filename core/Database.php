@@ -11,7 +11,7 @@ class Database
 
     public function __construct()
     {
-        $this->pdo = new PDO('mysql:host=' . DB_HOST . ';port=3306;dbname=products_server', DB_USER, DB_PASSWORD);
+        $this->pdo = new PDO('mysql:host=' . DB_HOST . ';port=3306;dbname=' . DB_NAME, DB_USER, DB_PASSWORD);
         $this->pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         
     }
