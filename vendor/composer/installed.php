@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'my-pc/scanditest',
-        'pretty_version' => 'dev-master',
-        'version' => 'dev-master',
-        'reference' => 'af10df4d6fec7a2ef29e6573056fb90e6ff1d722',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '7e3c838fef5f47f7caefe20195f466f2b36bd9a8',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'my-pc/scanditest' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
-            'reference' => 'af10df4d6fec7a2ef29e6573056fb90e6ff1d722',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '7e3c838fef5f47f7caefe20195f466f2b36bd9a8',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
