@@ -3,7 +3,7 @@
 namespace app\controller;
 
 use app\core\Database;
-use app\views\productView;
+use app\views\ProductView;
 use app\models\productTypes\Validation;
 
 class ProductController
