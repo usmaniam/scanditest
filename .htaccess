@@ -3,5 +3,13 @@
 
     RewriteCond %{REQUEST_FILENAME} !-f
 
-    RewriteRule ^ public/ [L]
+    RewriteRule ^ public/index.php [N]
+    
+    RewriteCond %{REQUEST_FILENAME} !-f
+
+    RewriteRule ^ public/app.css [N]
+    
+    RewriteCond %{REQUEST_FILENAME} !-f
+
+    RewriteRule ^ public/app.js [L]
 </IfModule>
