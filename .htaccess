@@ -4,4 +4,6 @@
     RewriteCond %{REQUEST_FILENAME} !-f
 
     RewriteRule ^ public/ [L]
+    RewriteRule ^ public/js/ [L]
+    RewriteRule ^ public/css/ [L]
 </IfModule>
